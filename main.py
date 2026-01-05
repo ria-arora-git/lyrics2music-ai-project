@@ -3,7 +3,6 @@ from intelligence.emotion import detect_emotions
 from intelligence.energy import estimate_energy
 from intelligence.structure import infer_emotional_arc
 from intelligence.decision import make_music_decision
-from generation.musicgen_client import generate_music
 from generation.local_synth import generate_music_from_intent
 
 def main():
