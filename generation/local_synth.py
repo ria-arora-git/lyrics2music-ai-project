@@ -36,7 +36,7 @@ def generate_music_from_intent(
     print("🎼 Generating local instrumental music...")
 
     sample_rate = 44100
-    duration = 30
+    duration = 10
     t = np.linspace(0, duration, int(sample_rate * duration), endpoint=False)
 
     base_freq = 220.0
